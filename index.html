@@ -19,58 +19,80 @@
                 <button id = "submit" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
             <ul class="list-group" id="list">
-                <li class="list-group-item">Dapibus ac facilisis in</li>
             </ul>
           </div>
-          <div class="col-8">
-            <span class="border border-light " style="padding-left: 3px; padding-right: 3px;">
+          <div class="col-8" style="display:none;">
+            <span class="border border-light " style="padding-left: 3px; padding-right: 3px;" id="stuff">
                 <div class="card text-black bg-light mb-3 float-left" style="max-width: 14rem; margin-top: 1rem; margin-right: 1rem;">
-                    <div class="card-header">Header</div>
+                    <div class="card-header" id="city">Header</div>
                     <div class="card-body">
-                      <h5 class="card-title">Dark card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+                      <p class="card-text">
+                        <div id="fi"></div>
+                        <div id = "temp"></div>
+                        <div id = "humidity"></div>
+                        <div id = "wind-speed"></div>
+                        <div id = "UVindex"></div>
+                      </p>
                     </div>
                 </div>
                 <div class="card text-white bg-dark mb-3 float-left" style="max-width: 14rem; margin-top: 1rem; margin-right: 1rem;">
-                    <div class="card-header">Header</div>
                     <div class="card-body">
-                      <h5 class="card-title">Dark card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title" id = "date1">Dark card title</h5>
+                      <p class="card-text">
+                        <div id="icon"></div>
+                        <div id="temp"></div>
+                        <div id ="humidity"></div>
+                      </p>
                     </div>
                 </div>
                 <div class="card text-white bg-dark mb-3 float-left" style="max-width: 14rem; margin-top: 1rem; margin-right: 1rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Dark card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title" id = "date2"></h5>
+                    <p class="card-text">
+                      <div id="icon"></div>
+                      <div id="temp"></div>
+                      <div id ="humidity"></div>
+                    </p>
+                  </div>
                 </div>
                 <div class="card text-white bg-dark mb-3 float-left" style="max-width: 14rem; margin-top: 1rem; margin-right: 1rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Dark card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title" id = "date3"></h5>
+                    <p class="card-text">
+                      <div id="icon"></div>
+                      <div id="temp"></div>
+                      <div id ="humidity"></div>
+                    </p>
+                  </div>
                 </div>
                 <div class="card text-white bg-dark mb-3 float-left" style="max-width: 14rem; margin-top: 1rem; margin-right: 1rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Dark card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title" id = "date4"></h5>
+                    <p class="card-text">
+                      <div id="icon"></div>
+                      <div id="temp"></div>
+                      <div id ="humidity"></div>
+                    </p>
+                  </div>
                 </div>
                 <div class="card text-white bg-dark mb-3 float-left" style="max-width: 14rem; margin-top: 1rem; margin-right: 1rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Dark card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title" id = "date5"></h5>
+                    <p class="card-text">
+                      <div id="icon"></div>
+                      <div id="temp"></div>
+                      <div id ="humidity"></div>
+                    </p>
+                  </div>
                 </div>
             </span>
           </div>
         </div>
       </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
